@@ -1,5 +1,5 @@
 // TYPEWRITER
-const typewriterText = "Junior QA Engineer · Manual Testing · Automation Testing";
+const typewriterText = "As mais ardidas e saborosas - Indianas, Mexicanas e Caribenhas";
 const typewriterEl = document.getElementById("typewriter");
 let idx = 0;
 function typeWriter() {
