@@ -30,7 +30,8 @@ class Sparkle {
     this.size = Math.random()*4+2;
     this.speedX = (Math.random()-0.5)*1.5;
     this.speedY = (Math.random()-0.5)*1.5;
-    this.color = "rgba(0,255,255,0.9)";
+    this.color = `rgba(${255}, ${Math.random()*150}, 0, 0.9)`;
+
     this.life = 120;
   }
   update(){ this.x+=this.speedX; this.y+=this.speedY; this.life--; }
